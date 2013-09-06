@@ -1,0 +1,121 @@
+.container {
+  margin: 20px auto;
+  width: 800px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  display:block;
+  position: relative;
+  top: 300px;
+  height: 100%;
+}
+
+.container h1 {
+  font-size: 17pt;
+
+}
+
+nav {
+  position: fixed;
+  margin-left:10%;
+  margin-right:10%;
+  width: 80%;
+  height: auto;
+  font-weight: bold;
+  border: 10px solid black;
+  border-radius: 10px;
+  display: block;
+}
+
+#uploader_window {
+  display: block;
+  position: relative;
+  clear: all;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: green;
+  top: 300px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+
+}
+
+.album_icon {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid black;
+  background-image: url('/public/dumpicon.jpeg')
+  background-repeat: none;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+
+#signinform {  
+  float:right;
+}
+#dumpicon {
+  display:inline;
+  width: 230px;
+  height: 230px;
+  float:left;
+}
+nav .brand, nav .brand a {
+  margin-left: 25px;
+  font-size: 18pt;
+  text-decoration: none;
+  color: #444;
+  width: 60%;
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+nav li {
+  margin-right: 25px;
+  display: inline;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+form label {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.errors {
+  color: red;
+}
+
+form.quirks {
+  display: inline-block;
+}
+
+.submit {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+  float: left;
+  text-align: right;
+  margin-right: 20px;
+  width: 200px;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+ <div>
+  <h1>Welcome to PhotoDump</h1>
+  <h3>Where your friends can look at everything you dump!</h3>
+</div>
+<br>
+    <% @albums.each do |album| %>
+    <div class="album_icon"><a href="/albums/<%= album.id %>"> <%= album.name %> </a></div>
+    <% end %>
+
+
+  <%# TODO: display the skills and proficiency levels for each user ... %>
+</div>
